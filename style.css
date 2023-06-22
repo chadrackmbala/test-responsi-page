@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins & display=swap');
+/* .box {
+    width: 350px;
+    height: 350px;
+    color: white;
+    font-size: 30px;
+}
+.box-1 {
+    background: aqua;
+}
+.box-2 {
+    background: darkblue;
+}
+.box-3 {
+    background: darkred;
+}
+.container {
+    display: flex;
+    justify-content: space-between; 
+}
+.container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and  {
+    
+} */
+body {
+    background-color: black;
+}
+* {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 1000px;
+    height: 100%;
+    background: gray;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+
+}
+.container p {
+    
+    font-size: 1.3em;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: auto;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li {
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
+ul li:hover {
+    color: rgb(135,206,250);
+    font-size: 25px;
+    transition: 1s;
+}
+ul li:active {
+    color: rgb(220,20,60);
+    font-size: 20px;
+    transition: 1s;
+}
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 90%;
+    }    
+    img {
+        width: 50%;
+        height: 50%;
+        border-radius: 50%;
+    }
+}
